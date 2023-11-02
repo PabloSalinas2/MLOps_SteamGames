@@ -9,6 +9,7 @@ df_funcion4=pd.read_csv('funcion4.csv')
 df_funcion5=pd.read_csv('funcion5.csv')
 
 app= FastAPI()
+app.title='Steam Games: Querys'
 
 @app.get("/play_time_genre/{genre}")
 def PlayTimeGenre( genre : str ): #  Debe devolver año con mas horas jugadas para dicho género.
