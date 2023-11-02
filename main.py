@@ -17,7 +17,7 @@ app.title='Steam Games: Querys'
 @app.get("/play_time_genre/{genre}")
 def PlayTimeGenre( genre : str ): 
     try:
-        genre=genre.capitalize()
+        genre=genre.title()
         valor_maximo=df_funcion1[df_funcion1['genero']==genre]['timpo_total_jugado'].max()
         indice=df_funcion1[df_funcion1['timpo_total_jugado']==valor_maximo].index
         resultado=df_funcion1['año_lanzamiento'].loc[indice].values
@@ -26,13 +26,10 @@ def PlayTimeGenre( genre : str ):
         print('Genero incorrecto')
 
 
-
-
-
 @app.get("/user_for_genre/{genero}")
 def UserForGenre( genero : str ): 
     try:
-        genero=genero.capitalize() 
+        genero=genero.title() 
         df_genero=df_funcion2[df_funcion2['genero']==genero]
         tiempo_maximo=df_genero['timpo_total_jugado'].max()
         indice_tiempo_maximo=df_genero[df_genero['timpo_total_jugado']==tiempo_maximo].index
@@ -52,7 +49,7 @@ def UserForGenre( genero : str ):
 
 
 
-@app.get("/users_recommend/{año}")
+@app.get("/users_recommend/{anio}")
 def UsersRecommend( año : int ):
     try:
         df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nlargest(3,'recommend')
@@ -64,8 +61,7 @@ def UsersRecommend( año : int ):
 
 
 
-
-@app.get("/users_not_recommend/{año}")
+@app.get("/users_not_recommend/{anio}")
 def UsersNotRecommend( año : int ): # Devuelve el top 3 de juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
     try:
         df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nsmallest(3,'recommend')
@@ -78,7 +74,7 @@ def UsersNotRecommend( año : int ): # Devuelve el top 3 de juegos MENOS recomen
 
 
 
-@app.get("/sentiment_analysis/{año}")
+@app.get("/sentiment_analysis/{anio}")
 def sentiment_analysis( año : int ): 
     df_año=df_funcion5[df_funcion5['año_lanzamiento']==año]
     positivos=0
