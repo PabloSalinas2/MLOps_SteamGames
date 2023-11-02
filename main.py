@@ -11,10 +11,11 @@ df_funcion5=pd.read_csv('funcion5.csv')
 app= FastAPI()
 app.title='Steam Games: Querys'
 
-@app.get("/play_time_genre/{genre}")
-def PlayTimeGenre( genre : str ): #  Debe devolver año con mas horas jugadas para dicho género.
-    # pasar a dataframe dentro de la funcion ?
 
+
+
+@app.get("/play_time_genre/{genre}")
+def PlayTimeGenre( genre : str ): 
     try:
         genre=genre.capitalize()
         valor_maximo=df_funcion1[df_funcion1['genero']==genre]['timpo_total_jugado'].max()
@@ -23,6 +24,9 @@ def PlayTimeGenre( genre : str ): #  Debe devolver año con mas horas jugadas pa
         return {f'Año de lanzamiento con mas horas jugadas para el Género {genre}:':resultado[0]}
     except Exception as e:
         print('Genero incorrecto')
+
+
+
 
 
 @app.get("/user_for_genre/{genero}")
@@ -40,11 +44,10 @@ def UserForGenre( genero : str ):
             año=fila['año_posted_review']
             horas_jugadas=fila['timpo_total_jugado']
             lista.append({'Año': año, 'Horas': horas_jugadas})
-
         return {f'Usuario con más horas jugadas para el Género {genero}':resultado, 'Horas jugadas': lista}
-
     except Exception as e:
         return {'Genero incorrecto'}
+
 
 
 
@@ -58,6 +61,7 @@ def UsersRecommend( año : int ):
     except Exception:
         return {'No existen datos para el valor ingresado'}
     
+
 
 
 
