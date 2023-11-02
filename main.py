@@ -24,7 +24,7 @@ def PlayTimeGenre( genre : str ): #  Debe devolver año con mas horas jugadas pa
         print('Genero incorrecto')
 
 
-@app.get("/")
+
 def UserForGenre( genero : str ): 
     try:
         genero=genero.capitalize() 
@@ -48,7 +48,7 @@ def UserForGenre( genero : str ):
 
 
 
-@app.get("/")
+
 def UsersRecommend( año : int ):
     try:
         df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nlargest(3,'recommend')
@@ -60,7 +60,7 @@ def UsersRecommend( año : int ):
 
 
 
-@app.get("/")
+
 def UsersNotRecommend( año : int ): # Devuelve el top 3 de juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
     try:
         df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nsmallest(3,'recommend')
@@ -73,7 +73,7 @@ def UsersNotRecommend( año : int ): # Devuelve el top 3 de juegos MENOS recomen
 
 
 
-@app.get("/")
+
 def sentiment_analysis( año : int ): 
     df_año=df_funcion5[df_funcion5['año_lanzamiento']==año]
     positivos=0
