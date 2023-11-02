@@ -157,7 +157,7 @@ año_posted_review,id_juego,title,recommend
 2014,50130,Mafia II,1
 2014,57900,Duke Nukem Forever,1
 2014,58610,Wargame: European Escalation,1
-2014,63380,Sniper Elite V2,3
+2014,63380,Sniper Elite V2,2
 2014,63710,BIT.TRIP RUNNER,4
 2014,63800,Delve Deeper,4
 2014,65740,Carrier Command: Gaea Mission,2
@@ -205,7 +205,7 @@ año_posted_review,id_juego,title,recommend
 2014,208812,Tomb Raider: Tomb of the Lost Adventurer,2
 2014,209000,Batman™: Arkham Origins,4
 2014,209080,Guns of Icarus Online,8
-2014,209160,Call of Duty®: Ghosts,14
+2014,209160,Call of Duty®: Ghosts,13
 2014,209630,Magrunner: Dark Pulse,2
 2014,209650,Call of Duty®: Advanced Warfare - Gold Edition,4
 2014,209730,R.A.W. Realms of Ancient War,2
@@ -355,11 +355,11 @@ año_posted_review,id_juego,title,recommend
 2014,265300,Lords Of The Fallen™,4
 2014,265550,Dead Rising 3 Apocalypse Edition,2
 2014,265870,Alpha Kimori™ 1,5
-2014,265930,Goat Simulator,30
+2014,265930,Goat Simulator,27
 2014,266070,City of Steam: Arkadia,4
 2014,266430,Anarchy Arcade,8
 2014,267600,Airport Simulator 2014,1
-2014,267610,Woodcutter Simulator 2013,3
+2014,267610,Woodcutter Simulator 2013,2
 2014,269810,Spate,3
 2014,270550,Yet Another Zombie Defense,4
 2014,273110,Counter-Strike Nexon: Zombies,16
@@ -421,7 +421,7 @@ año_posted_review,id_juego,title,recommend
 2015,730,Counter-Strike: Global Offensive,60
 2015,1250,Killing Floor,1
 2015,2820,X3: Terran Conflict,3
-2015,4000,Garry's Mod,22
+2015,4000,Garry's Mod,20
 2015,4920,Natural Selection 2,3
 2015,6060,"Star Wars: Battlefront 2 (Classic, 2005)",1
 2015,6880,Just Cause,1
@@ -431,7 +431,7 @@ año_posted_review,id_juego,title,recommend
 2015,7940,Call of Duty® 4: Modern Warfare®,1
 2015,8190,Just Cause 2,4
 2015,8850,BioShock® 2,1
-2015,8930,Sid Meier's Civilization® V,3
+2015,8930,Sid Meier's Civilization® V,2
 2015,8970,Axel &amp; Pixel,1
 2015,9070,DOOM 3 Resurrection of Evil,1
 2015,9480,Saints Row 2,1
@@ -439,7 +439,7 @@ año_posted_review,id_juego,title,recommend
 2015,12120,Grand Theft Auto: San Andreas,1
 2015,12150,Max Payne 2: The Fall of Max Payne,1
 2015,12830,Operation Flashpoint: Dragon Rising,1
-2015,17080,Tribes: Ascend,4
+2015,17080,Tribes: Ascend,2
 2015,17390,SPORE™,2
 2015,17410,Mirror's Edge™,2
 2015,17700,INSURGENCY: Modern Infantry Combat,1
@@ -488,7 +488,7 @@ año_posted_review,id_juego,title,recommend
 2015,104700,Super MNC,10
 2015,104900,ORION: Prelude,8
 2015,105600,Terraria,16
-2015,107410,Arma 3,21
+2015,107410,Arma 3,18
 2015,113400,APB Reloaded,21
 2015,113420,Fallen Earth Free2Play,3
 2015,200210,Realm of the Mad God,35
@@ -514,7 +514,7 @@ año_posted_review,id_juego,title,recommend
 2015,208480,Assassin’s Creed® III,1
 2015,208650,Batman™: Arkham Knight,26
 2015,208730,Game of Thrones,2
-2015,209100,Resident Evil: Operation Raccoon City,2
+2015,209100,Resident Evil: Operation Raccoon City,1
 2015,209160,Call of Duty®: Ghosts,4
 2015,209650,Call of Duty®: Advanced Warfare - Gold Edition,11
 2015,209870,Blacklight: Retribution,12
@@ -526,7 +526,7 @@ año_posted_review,id_juego,title,recommend
 2015,211820,Starbound,15
 2015,212070,Star Conflict,4
 2015,212200,Mabinogi,7
-2015,214420,Gear Up,15
+2015,214420,Gear Up,12
 2015,214490,Alien: Isolation,1
 2015,214830,Half Minute Hero: Super Mega Neo Climax Ultimate Boy,3
 2015,214950,Total War™: ROME II - Emperor Edition,3
@@ -545,7 +545,7 @@ año_posted_review,id_juego,title,recommend
 2015,222880,Insurgency,9
 2015,222980,Dead Pixels,3
 2015,223470,POSTAL 2,3
-2015,223710,Cry of Fear,12
+2015,223710,Cry of Fear,9
 2015,224500,Gnomoria,6
 2015,224540,Ace of Spades: Battle Builder,10
 2015,224760,FEZ,1
@@ -607,7 +607,7 @@ año_posted_review,id_juego,title,recommend
 2015,250400,How to Survive,6
 2015,250420,8BitMMO,12
 2015,251870,Go! Go! Nippon! ~My First Trip to Japan~,1
-2015,252490,Rust,162
+2015,252490,Rust,156
 2015,252950,Rocket League®,8
 2015,253710,theHunter Classic,25
 2015,253980,Enclave,1
@@ -640,7 +640,7 @@ año_posted_review,id_juego,title,recommend
 2015,271240,Offworld Trading Company,3
 2015,271590,Grand Theft Auto V,36
 2015,272890,Vertiginous Golf,2
-2015,273110,Counter-Strike Nexon: Zombies,40
+2015,273110,Counter-Strike Nexon: Zombies,36
 2015,273350,Evolve Stage 2,8
 2015,274250,OlliOlli,2
 2015,274920,FaceRig,4
@@ -693,9 +693,9 @@ año_posted_review,id_juego,title,recommend
 2015,303210,The Beginner's Guide,2
 2015,303390,Dead Bits,9
 2015,304030,ArcheAge,6
-2015,304050,Trove,54
+2015,304050,Trove,48
 2015,304500,Rooms: The Main Building,2
-2015,304930,Unturned,95
+2015,304930,Unturned,90
 2015,305260,Battle Islands,3
 2015,305920,Another Perspective,2
 2015,306130,The Elder Scrolls® Online: Tamriel Unlimited™,6
