@@ -15,68 +15,78 @@ app.title='Steam Games: Querys'
 
 
 @app.get("/play_time_genre/{genre}")
-def PlayTimeGenre( genre : str ): 
+def PlayTimeGenre( genre : str ): #  Debe devolver año con mas horas jugadas para dicho género.
+    # pasar a dataframe dentro de la funcion ?
     try:
         genre=genre.title()
-        valor_maximo=df_funcion1[df_funcion1['genero']==genre]['timpo_total_jugado'].max()
-        indice=df_funcion1[df_funcion1['timpo_total_jugado']==valor_maximo].index
-        resultado=df_funcion1['año_lanzamiento'].loc[indice].values
+        valor_maximo=df_funcion1[df_funcion1['genres']==genre]['playtime_forever'].max()
+        indice=df_funcion1[df_funcion1['playtime_forever']==valor_maximo].index
+        resultado=df_funcion1['release_year'].loc[indice].values
         return {f'Año de lanzamiento con mas horas jugadas para el Género {genre}:':resultado[0]}
     except Exception as e:
         print('Genero incorrecto')
 
+# Ejemplo de retorno: {"Año de lanzamiento con más horas jugadas para Género X" : 2013}
 
 @app.get("/user_for_genre/{genero}")
-def UserForGenre( genero : str ): 
+def UserForGenre( genero : str ): #Debe devolver el usuario que acumula más horas jugadas para el género dado y una lista de la acumulación de horas jugadas por año.
     try:
-        genero=genero.title() 
-        df_genero=df_funcion2[df_funcion2['genero']==genero]
-        tiempo_maximo=df_genero['timpo_total_jugado'].max()
-        indice_tiempo_maximo=df_genero[df_genero['timpo_total_jugado']==tiempo_maximo].index
+        genero=genero.title() # independientemente de si el usuario coloca el parametro en mayuscula o minuscula, el texto introducido se convierte a un texto con la primer letra en mayusculas y las otrwas en minusculas
+        df_genero=df_funcion2[df_funcion2['genres']==genero]
+        tiempo_maximo=df_genero['playtime_forever'].max()
+        indice_tiempo_maximo=df_genero[df_genero['playtime_forever']==tiempo_maximo].index
         resultado=df_genero['user_id'].loc[indice_tiempo_maximo].values[0]
 
-        df_horas_por_año=df_funcion2[(df_funcion2['user_id']==resultado) & (df_funcion2['genero']==genero)]
+        df_horas_por_año=df_funcion2[(df_funcion2['user_id']==resultado) & (df_funcion2['genres']==genero)]
         lista=[]
         for indice,fila in df_horas_por_año.iterrows():
-            año=fila['año_posted_review']
-            horas_jugadas=fila['timpo_total_jugado']
+            año=fila['year_review_posted']
+            horas_jugadas=fila['playtime_forever']
             lista.append({'Año': año, 'Horas': horas_jugadas})
+
         return {f'Usuario con más horas jugadas para el Género {genero}':resultado, 'Horas jugadas': lista}
+
     except Exception as e:
         return {'Genero incorrecto'}
+
+# Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf, "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}
 
 
 
 
 
 @app.get("/users_recommend/{anio}")
-def UsersRecommend( año : int ):
+def UsersRecommend( year : int ): # Devuelve el top 3 de juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos/neutrales)
     try:
-        df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nlargest(3,'recommend')
-        return [{'Puesto 1': df_top3['title'].iloc[0]},{'Puesto 2:': df_top3['title'].iloc[1]},{'Puesto 3:': df_top3['title'].iloc[2]}]
+        df_top3=df_funcion3[df_funcion3['year_review_posted']==year].nlargest(3,'recommend')
+        return [{'Puesto 1': df_top3['app_name'].iloc[0]},{'Puesto 2:': df_top3['app_name'].iloc[1]},{'Puesto 3:': df_top3['app_name'].iloc[2]}]
 
     except Exception:
         return {'No existen datos para el valor ingresado'}
+    
+#Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]
     
 
 
 
 @app.get("/users_not_recommend/{anio}")
-def UsersNotRecommend( año : int ): # Devuelve el top 3 de juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
+def UsersNotRecommend( year : int ): # Devuelve el top 3 de juegos MENOS recomendados por usuarios para el año dado. (reviews.recommend = False y comentarios negativos)
     try:
-        df_top3=df_funcion3[df_funcion3['año_posted_review']==año].nsmallest(3,'recommend')
-        return [{'Puesto 1': df_top3['title'].iloc[0]},{'Puesto 2:': df_top3['title'].iloc[1]},{'Puesto 3:': df_top3['title'].iloc[2]}]
+        df_top3=df_funcion4[df_funcion4['year_review_posted']==year].nsmallest(3,'recommend')
+        return [{'Puesto 1': df_top3['item_name'].iloc[0]},{'Puesto 2:': df_top3['item_name'].iloc[1]},{'Puesto 3:': df_top3['item_name'].iloc[2]}]
 
     except Exception:
         return {'No existen datos para el valor ingresado'}
+ 
+# Ejemplo de retorno: [{"Puesto 1" : X}, {"Puesto 2" : Y},{"Puesto 3" : Z}]
 
 
 
 
 
 @app.get("/sentiment_analysis/{anio}")
-def sentiment_analysis( año : int ): 
-    df_año=df_funcion5[df_funcion5['año_lanzamiento']==año]
+def sentiment_analysis( year : int ): # Según el año de lanzamiento, se devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
+    df_año=df_funcion5[df_funcion5['release_year']==year]
     positivos=0
     negativos=0
     neutros=0
@@ -89,5 +99,7 @@ def sentiment_analysis( año : int ):
             positivos+=1
 
     return {'Negative': negativos, 'Neutral': neutros,'Positive':positivos}
+
+# Ejemplo de retorno: {Negative = 182, Neutral = 120, Positive = 278}
 
 

@@ -1,323 +1,353 @@
-genero,año_lanzamiento,timpo_total_jugado
-Action,1983.0,3473
-Action,1984.0,384
-Action,1988.0,16001
-Action,1989.0,607
-Action,1990.0,18271
-Action,1991.0,2203
-Action,1992.0,1925
-Action,1993.0,23911
-Action,1994.0,119436
-Action,1995.0,215960
-Action,1996.0,67844
-Action,1997.0,359836
-Action,1998.0,2882296
-Action,1999.0,2705445
-Action,2000.0,18352379
-Action,2001.0,1326310
-Action,2002.0,719643
-Action,2003.0,11893403
-Action,2004.0,129693956
-Action,2005.0,11847919
-Action,2006.0,10772811
-Action,2007.0,17499265
-Action,2008.0,33512277
-Action,2009.0,163787606
-Action,2010.0,180085718
-Action,2011.0,314316575
-Action,2012.0,1085411003
-Action,2013.0,412973305
-Action,2014.0,166496285
-Action,2015.0,255774530
-Action,2016.0,95567902
-Action,2017.0,126271373
-Action,2018.0,21
-Adventure,1983.0,3473
-Adventure,1984.0,384
-Adventure,1987.0,7712
-Adventure,1988.0,29963
-Adventure,1989.0,9311
-Adventure,1990.0,5346
-Adventure,1991.0,1636
-Adventure,1992.0,23795
-Adventure,1993.0,46772
-Adventure,1994.0,15890
-Adventure,1995.0,10026
-Adventure,1996.0,104199
-Adventure,1997.0,324405
-Adventure,1998.0,176987
-Adventure,1999.0,7735
-Adventure,2000.0,105121
-Adventure,2001.0,50619
-Adventure,2002.0,184447
-Adventure,2003.0,5189429
-Adventure,2004.0,96149
-Adventure,2005.0,206433
-Adventure,2006.0,203976
-Adventure,2007.0,399173
-Adventure,2008.0,3272129
-Adventure,2009.0,6768510
-Adventure,2010.0,24901044
-Adventure,2011.0,204469804
-Adventure,2012.0,73373579
-Adventure,2013.0,150104265
-Adventure,2014.0,69972429
-Adventure,2015.0,180322516
-Adventure,2016.0,62053306
-Adventure,2017.0,92769703
-Adventure,2018.0,21
-Animation  Modeling,2012.0,11370
-Animation  Modeling,2013.0,165011
-Animation  Modeling,2014.0,59521
-Animation  Modeling,2015.0,196092
-Animation  Modeling,2016.0,1798
-Audio Production,2014.0,65263
-Audio Production,2015.0,4709
-Audio Production,2016.0,273
-Casual,1983.0,3473
-Casual,1984.0,384
-Casual,1991.0,1355
-Casual,1992.0,2492
-Casual,1993.0,22039
-Casual,1994.0,45975
-Casual,1995.0,3553
-Casual,1996.0,30585
-Casual,1997.0,32521
-Casual,1998.0,12958
-Casual,1999.0,632929
-Casual,2000.0,53118
-Casual,2001.0,6243
-Casual,2002.0,61612
-Casual,2003.0,3048
-Casual,2004.0,24217
-Casual,2005.0,40708
-Casual,2006.0,236277
-Casual,2007.0,671805
-Casual,2008.0,561847
-Casual,2009.0,870209
-Casual,2010.0,2830484
-Casual,2011.0,4061190
-Casual,2012.0,20360442
-Casual,2013.0,12815926
-Casual,2014.0,25008347
-Casual,2015.0,78616248
-Casual,2016.0,43714232
-Casual,2017.0,50922548
-Design  Illustration,2012.0,1930339
-Design  Illustration,2013.0,25591
-Design  Illustration,2014.0,169505
-Design  Illustration,2015.0,369224
-Design  Illustration,2016.0,3007
-Early Access,2012.0,3210626
-Early Access,2013.0,118826701
-Early Access,2014.0,11154010
-Early Access,2015.0,13529164
-Early Access,2016.0,9682106
-Early Access,2017.0,34195
-Early Access,2018.0,3924
-Education,2013.0,164870
-Education,2014.0,7840
-Education,2015.0,36052
-Education,2016.0,2188
-Education,2017.0,9382
-Free to Play,1996.0,127
-Free to Play,1999.0,627007
-Free to Play,2001.0,4965
-Free to Play,2003.0,5995099
-Free to Play,2006.0,2561487
-Free to Play,2007.0,181547
-Free to Play,2008.0,215519
-Free to Play,2009.0,2335384
-Free to Play,2010.0,8595010
-Free to Play,2011.0,26008274
-Free to Play,2012.0,115204398
-Free to Play,2013.0,144353339
-Free to Play,2014.0,39941878
-Free to Play,2015.0,123051639
-Free to Play,2016.0,23264713
-Free to Play,2017.0,86235439
-Indie,1988.0,13962
-Indie,1995.0,3168
-Indie,1996.0,570
-Indie,1997.0,64285
-Indie,1998.0,19957
-Indie,1999.0,627007
-Indie,2000.0,5304
-Indie,2001.0,88452
-Indie,2002.0,37884
-Indie,2003.0,2127360
-Indie,2004.0,43179
-Indie,2005.0,260257
-Indie,2006.0,446115272
-Indie,2007.0,1299343
-Indie,2008.0,3495323
-Indie,2009.0,3741174
-Indie,2010.0,6079613
-Indie,2011.0,206216431
-Indie,2012.0,122955364
-Indie,2013.0,174850087
-Indie,2014.0,91694962
-Indie,2015.0,169817584
-Indie,2016.0,89334109
-Indie,2017.0,125530993
-Indie,2018.0,123
-Massively Multiplayer,2003.0,5995099
-Massively Multiplayer,2007.0,117715
-Massively Multiplayer,2008.0,104087
-Massively Multiplayer,2009.0,2015448
-Massively Multiplayer,2010.0,7444500
-Massively Multiplayer,2011.0,25971310
-Massively Multiplayer,2012.0,84710197
-Massively Multiplayer,2013.0,133057865
-Massively Multiplayer,2014.0,38056805
-Massively Multiplayer,2015.0,39891829
-Massively Multiplayer,2016.0,22072513
-Massively Multiplayer,2017.0,63505161
-Photo Editing,2006.0,173
-Photo Editing,2014.0,50090
-Photo Editing,2015.0,669
-Photo Editing,2016.0,502
-RPG,1988.0,13962
-RPG,1991.0,0
-RPG,1992.0,2164
-RPG,1994.0,2092
-RPG,1996.0,25354
-RPG,1997.0,359624
-RPG,1998.0,378188
-RPG,1999.0,290387
-RPG,2000.0,53240
-RPG,2001.0,101947
-RPG,2002.0,1783174
-RPG,2003.0,9030839
-RPG,2004.0,72098
-RPG,2005.0,3136593
-RPG,2006.0,1838437
-RPG,2007.0,9462513
-RPG,2008.0,10326511
-RPG,2009.0,25623919
-RPG,2010.0,91569545
-RPG,2011.0,209207633
-RPG,2012.0,163386663
-RPG,2013.0,124527689
-RPG,2014.0,81714582
-RPG,2015.0,151342290
-RPG,2016.0,55970429
-RPG,2017.0,67535068
-RPG,2018.0,3822
-Racing,1994.0,289
-Racing,1995.0,31004
-Racing,1996.0,1202
-Racing,1997.0,9319
-Racing,1998.0,15130
-Racing,1999.0,32
-Racing,2000.0,3015
-Racing,2003.0,30957
-Racing,2004.0,3477
-Racing,2005.0,215392
-Racing,2006.0,426125
-Racing,2007.0,583348
-Racing,2008.0,1236789
-Racing,2009.0,2351379
-Racing,2010.0,2041063
-Racing,2011.0,2352762
-Racing,2012.0,995589
-Racing,2013.0,4724200
-Racing,2014.0,5516957
-Racing,2015.0,37414158
-Racing,2016.0,3614031
-Racing,2017.0,53188
-Simulation,1987.0,235
-Simulation,1988.0,1
-Simulation,1989.0,5084
-Simulation,1990.0,1926
-Simulation,1991.0,144
-Simulation,1992.0,11
-Simulation,1993.0,65
-Simulation,1994.0,9351
-Simulation,1995.0,980
-Simulation,1996.0,1918
-Simulation,1997.0,4979
-Simulation,1998.0,107137
-Simulation,1999.0,129301
-Simulation,2000.0,69431
-Simulation,2001.0,221884
-Simulation,2002.0,353361
-Simulation,2003.0,1358139
-Simulation,2004.0,135928
-Simulation,2005.0,175020
-Simulation,2006.0,444534959
-Simulation,2007.0,1404881
-Simulation,2008.0,4689182
-Simulation,2009.0,16260939
-Simulation,2010.0,41736101
-Simulation,2011.0,14551276
-Simulation,2012.0,28972637
-Simulation,2013.0,108642832
-Simulation,2014.0,37233259
-Simulation,2015.0,91702932
-Simulation,2016.0,35990190
-Simulation,2017.0,24369313
-Software Training,2013.0,25591
-Software Training,2014.0,7840
-Software Training,2015.0,36136
-Software Training,2016.0,480
-Software Training,2017.0,9382
-Sports,1995.0,31004
-Sports,2005.0,69758
-Sports,2006.0,11182
-Sports,2007.0,1308
-Sports,2008.0,97528
-Sports,2009.0,244491
-Sports,2010.0,434500
-Sports,2011.0,923564
-Sports,2012.0,3514560
-Sports,2013.0,6186259
-Sports,2014.0,5406292
-Sports,2015.0,41305039
-Sports,2016.0,4692080
-Sports,2017.0,22871
-Strategy,1988.0,13962
-Strategy,1990.0,60
-Strategy,1991.0,0
-Strategy,1993.0,182863
-Strategy,1994.0,1169
-Strategy,1995.0,55227
-Strategy,1996.0,8468
-Strategy,1997.0,133571
-Strategy,1998.0,26109
-Strategy,1999.0,569756
-Strategy,2000.0,31052
-Strategy,2001.0,941295
-Strategy,2002.0,485452
-Strategy,2003.0,7333055
-Strategy,2004.0,3685772
-Strategy,2005.0,1011928
-Strategy,2006.0,17226204
-Strategy,2007.0,3157655
-Strategy,2008.0,8111475
-Strategy,2009.0,31772106
-Strategy,2010.0,140951442
-Strategy,2011.0,32977416
-Strategy,2012.0,85571141
-Strategy,2013.0,144887768
-Strategy,2014.0,50199915
-Strategy,2015.0,81927335
-Strategy,2016.0,31153946
-Strategy,2017.0,5863740
-Utilities,2006.0,382929
-Utilities,2012.0,6328
-Utilities,2013.0,164870
-Utilities,2014.0,257382
-Utilities,2015.0,128222
-Utilities,2016.0,14955
-Utilities,2017.0,9382
-Video Production,2006.0,173
-Video Production,2014.0,94212
-Video Production,2015.0,160033
-Web Publishing,2005.0,93844
-Web Publishing,2012.0,1930339
-Web Publishing,2013.0,139279
-Web Publishing,2014.0,22335
-Web Publishing,2015.0,332496
-Web Publishing,2016.0,1
-Web Publishing,2017.0,9382
+genres,release_year,playtime_forever
+Action,1983.0,3473.0
+Action,1984.0,384.0
+Action,1988.0,16001.0
+Action,1989.0,607.0
+Action,1990.0,18271.0
+Action,1991.0,2203.0
+Action,1992.0,1925.0
+Action,1993.0,23911.0
+Action,1994.0,119436.0
+Action,1995.0,215960.0
+Action,1996.0,67844.0
+Action,1997.0,359836.0
+Action,1998.0,2884140.0
+Action,1999.0,2706663.0
+Action,2000.0,18357855.0
+Action,2001.0,1326310.0
+Action,2002.0,732102.0
+Action,2003.0,11893403.0
+Action,2004.0,129693956.0
+Action,2005.0,11923932.0
+Action,2006.0,10772811.0
+Action,2007.0,17499265.0
+Action,2008.0,33400845.0
+Action,2009.0,163799096.0
+Action,2010.0,180085718.0
+Action,2011.0,331685982.0
+Action,2012.0,1085619303.0
+Action,2013.0,413927850.0
+Action,2014.0,166626668.0
+Action,2015.0,248555106.0
+Action,2016.0,95182968.0
+Action,2017.0,126334352.0
+Action,2018.0,2224.0
+Adventure,1983.0,3473.0
+Adventure,1984.0,384.0
+Adventure,1987.0,7712.0
+Adventure,1988.0,29963.0
+Adventure,1989.0,9311.0
+Adventure,1990.0,5346.0
+Adventure,1991.0,1636.0
+Adventure,1992.0,23795.0
+Adventure,1993.0,46772.0
+Adventure,1994.0,15890.0
+Adventure,1995.0,10026.0
+Adventure,1996.0,104199.0
+Adventure,1997.0,324405.0
+Adventure,1998.0,178831.0
+Adventure,1999.0,7735.0
+Adventure,2000.0,105121.0
+Adventure,2001.0,50619.0
+Adventure,2002.0,184447.0
+Adventure,2003.0,5189429.0
+Adventure,2004.0,96149.0
+Adventure,2005.0,206433.0
+Adventure,2006.0,203976.0
+Adventure,2007.0,399173.0
+Adventure,2008.0,3276314.0
+Adventure,2009.0,6766513.0
+Adventure,2010.0,24901044.0
+Adventure,2011.0,221707756.0
+Adventure,2012.0,73397431.0
+Adventure,2013.0,150950309.0
+Adventure,2014.0,67209616.0
+Adventure,2015.0,180496599.0
+Adventure,2016.0,61866242.0
+Adventure,2017.0,92832682.0
+Adventure,2018.0,21.0
+Animation Modeling,2012.0,17914.0
+Animation Modeling,2013.0,434433.0
+Animation Modeling,2014.0,76717.0
+Animation Modeling,2015.0,1345545.0
+Animation Modeling,2016.0,111438.0
+Audio Production,2007.0,11058.0
+Audio Production,2013.0,54446.0
+Audio Production,2014.0,455463.0
+Audio Production,2015.0,5060.0
+Audio Production,2016.0,459.0
+Casual,1983.0,3473.0
+Casual,1984.0,384.0
+Casual,1991.0,1355.0
+Casual,1992.0,2492.0
+Casual,1993.0,22039.0
+Casual,1994.0,45975.0
+Casual,1995.0,3553.0
+Casual,1996.0,30585.0
+Casual,1997.0,32521.0
+Casual,1998.0,12958.0
+Casual,1999.0,632929.0
+Casual,2000.0,53118.0
+Casual,2001.0,6243.0
+Casual,2002.0,61612.0
+Casual,2003.0,3048.0
+Casual,2004.0,24217.0
+Casual,2005.0,40708.0
+Casual,2006.0,236277.0
+Casual,2007.0,681040.0
+Casual,2008.0,567832.0
+Casual,2009.0,931465.0
+Casual,2010.0,4775797.0
+Casual,2011.0,4325781.0
+Casual,2012.0,20362233.0
+Casual,2013.0,12884295.0
+Casual,2014.0,22126708.0
+Casual,2015.0,81611951.0
+Casual,2016.0,43767299.0
+Casual,2017.0,50922548.0
+Design Illustration,2007.0,11058.0
+Design Illustration,2012.0,1930339.0
+Design Illustration,2013.0,292803.0
+Design Illustration,2014.0,192637.0
+Design Illustration,2015.0,1534013.0
+Design Illustration,2016.0,112605.0
+Design Illustration,2017.0,21.0
+Early Access,2012.0,3225527.0
+Early Access,2013.0,118902893.0
+Early Access,2014.0,11213536.0
+Early Access,2015.0,13529416.0
+Early Access,2016.0,9677505.0
+Early Access,2017.0,34195.0
+Early Access,2018.0,6127.0
+Education,2010.0,9.0
+Education,2013.0,340567.0
+Education,2014.0,22532.0
+Education,2015.0,36083.0
+Education,2016.0,2189.0
+Education,2017.0,9382.0
+Free To Play,1996.0,127.0
+Free To Play,1999.0,627007.0
+Free To Play,2001.0,4965.0
+Free To Play,2003.0,5995099.0
+Free To Play,2005.0,66729.0
+Free To Play,2006.0,2561487.0
+Free To Play,2007.0,181547.0
+Free To Play,2008.0,104087.0
+Free To Play,2009.0,2335384.0
+Free To Play,2010.0,8595010.0
+Free To Play,2011.0,43167345.0
+Free To Play,2012.0,115204398.0
+Free To Play,2013.0,144671851.0
+Free To Play,2014.0,37042660.0
+Free To Play,2015.0,115627604.0
+Free To Play,2016.0,23266895.0
+Free To Play,2017.0,86235439.0
+Indie,1988.0,13962.0
+Indie,1995.0,3168.0
+Indie,1996.0,570.0
+Indie,1997.0,64285.0
+Indie,1998.0,19957.0
+Indie,1999.0,627007.0
+Indie,2000.0,5304.0
+Indie,2001.0,88452.0
+Indie,2002.0,37884.0
+Indie,2003.0,2127360.0
+Indie,2004.0,43179.0
+Indie,2005.0,336270.0
+Indie,2006.0,446115272.0
+Indie,2007.0,1308363.0
+Indie,2008.0,5226587.0
+Indie,2009.0,3800714.0
+Indie,2010.0,8507191.0
+Indie,2011.0,223719661.0
+Indie,2012.0,123166181.0
+Indie,2013.0,177323482.0
+Indie,2014.0,91851981.0
+Indie,2015.0,173003439.0
+Indie,2016.0,89259599.0
+Indie,2017.0,125594175.0
+Indie,2018.0,2326.0
+Massively Multiplayer,2003.0,5995099.0
+Massively Multiplayer,2007.0,117715.0
+Massively Multiplayer,2008.0,104087.0
+Massively Multiplayer,2009.0,2015448.0
+Massively Multiplayer,2010.0,7444500.0
+Massively Multiplayer,2011.0,43130381.0
+Massively Multiplayer,2012.0,84710197.0
+Massively Multiplayer,2013.0,133376377.0
+Massively Multiplayer,2014.0,35157587.0
+Massively Multiplayer,2015.0,39896433.0
+Massively Multiplayer,2016.0,22072513.0
+Massively Multiplayer,2017.0,63505161.0
+Photo Editing,2006.0,173.0
+Photo Editing,2007.0,11058.0
+Photo Editing,2012.0,2678.0
+Photo Editing,2014.0,61659.0
+Photo Editing,2015.0,670.0
+Photo Editing,2016.0,38264.0
+Racing,1994.0,289.0
+Racing,1995.0,31004.0
+Racing,1996.0,1202.0
+Racing,1997.0,9319.0
+Racing,1998.0,15130.0
+Racing,1999.0,32.0
+Racing,2000.0,3015.0
+Racing,2003.0,30957.0
+Racing,2004.0,3477.0
+Racing,2005.0,215392.0
+Racing,2006.0,426125.0
+Racing,2007.0,583348.0
+Racing,2008.0,1236789.0
+Racing,2009.0,2397456.0
+Racing,2010.0,2041063.0
+Racing,2011.0,1339758.0
+Racing,2012.0,995589.0
+Racing,2013.0,4724202.0
+Racing,2014.0,5515762.0
+Racing,2015.0,37414158.0
+Racing,2016.0,3616311.0
+Racing,2017.0,116167.0
+Rpg,1988.0,13962.0
+Rpg,1991.0,0.0
+Rpg,1992.0,2164.0
+Rpg,1994.0,2092.0
+Rpg,1996.0,25354.0
+Rpg,1997.0,359624.0
+Rpg,1998.0,378188.0
+Rpg,1999.0,331133.0
+Rpg,2000.0,53240.0
+Rpg,2001.0,120226.0
+Rpg,2002.0,1783174.0
+Rpg,2003.0,9030839.0
+Rpg,2004.0,72098.0
+Rpg,2005.0,3145877.0
+Rpg,2006.0,1838437.0
+Rpg,2007.0,9462513.0
+Rpg,2008.0,10215079.0
+Rpg,2009.0,25623919.0
+Rpg,2010.0,91460486.0
+Rpg,2011.0,227959458.0
+Rpg,2012.0,163384641.0
+Rpg,2013.0,125094050.0
+Rpg,2014.0,78886029.0
+Rpg,2015.0,151456441.0
+Rpg,2016.0,55799741.0
+Rpg,2017.0,67535068.0
+Rpg,2018.0,3822.0
+Simulation,1987.0,235.0
+Simulation,1988.0,1.0
+Simulation,1989.0,5084.0
+Simulation,1990.0,1926.0
+Simulation,1991.0,144.0
+Simulation,1992.0,11.0
+Simulation,1993.0,65.0
+Simulation,1994.0,9351.0
+Simulation,1995.0,980.0
+Simulation,1996.0,1918.0
+Simulation,1997.0,4979.0
+Simulation,1998.0,107137.0
+Simulation,1999.0,129301.0
+Simulation,2000.0,69431.0
+Simulation,2001.0,247908.0
+Simulation,2002.0,353361.0
+Simulation,2003.0,1358139.0
+Simulation,2004.0,135928.0
+Simulation,2005.0,175020.0
+Simulation,2006.0,444536391.0
+Simulation,2007.0,1404881.0
+Simulation,2008.0,4689182.0
+Simulation,2009.0,16287495.0
+Simulation,2010.0,41657508.0
+Simulation,2011.0,14604010.0
+Simulation,2012.0,28987538.0
+Simulation,2013.0,109036269.0
+Simulation,2014.0,37248152.0
+Simulation,2015.0,91732327.0
+Simulation,2016.0,35846773.0
+Simulation,2017.0,24432495.0
+Simulation,2018.0,2203.0
+Sin Genero Especificado,1996.0,3368.0
+Sin Genero Especificado,2000.0,15467.0
+Sin Genero Especificado,2005.0,130.0
+Sin Genero Especificado,2006.0,41815.0
+Sin Genero Especificado,2007.0,1.0
+Sin Genero Especificado,2008.0,2608.0
+Sin Genero Especificado,2009.0,1354.0
+Sin Genero Especificado,2010.0,1422.0
+Sin Genero Especificado,2011.0,220292.0
+Sin Genero Especificado,2012.0,168243.0
+Sin Genero Especificado,2013.0,112.0
+Sin Genero Especificado,2014.0,5798.0
+Sin Genero Especificado,2015.0,55513.0
+Sin Genero Especificado,2016.0,6042.0
+Software Training,2010.0,0.0
+Software Training,2013.0,80050.0
+Software Training,2014.0,412697.0
+Software Training,2015.0,36605.0
+Software Training,2016.0,481.0
+Software Training,2017.0,9382.0
+Sports,1995.0,31004.0
+Sports,2005.0,69758.0
+Sports,2006.0,11182.0
+Sports,2007.0,1308.0
+Sports,2008.0,97528.0
+Sports,2009.0,249680.0
+Sports,2010.0,2376500.0
+Sports,2011.0,924685.0
+Sports,2012.0,3514560.0
+Sports,2013.0,6192179.0
+Sports,2014.0,5405097.0
+Sports,2015.0,41305040.0
+Sports,2016.0,4692080.0
+Sports,2017.0,22871.0
+Strategy,1988.0,13962.0
+Strategy,1990.0,60.0
+Strategy,1991.0,0.0
+Strategy,1993.0,182863.0
+Strategy,1994.0,1169.0
+Strategy,1995.0,55227.0
+Strategy,1996.0,8468.0
+Strategy,1997.0,133571.0
+Strategy,1998.0,26109.0
+Strategy,1999.0,574941.0
+Strategy,2000.0,31052.0
+Strategy,2001.0,941295.0
+Strategy,2002.0,485452.0
+Strategy,2003.0,7333055.0
+Strategy,2004.0,3686382.0
+Strategy,2005.0,1011928.0
+Strategy,2006.0,17226204.0
+Strategy,2007.0,3157655.0
+Strategy,2008.0,8111475.0
+Strategy,2009.0,31772106.0
+Strategy,2010.0,140842383.0
+Strategy,2011.0,34513058.0
+Strategy,2012.0,85571141.0
+Strategy,2013.0,145266624.0
+Strategy,2014.0,50279612.0
+Strategy,2015.0,81985845.0
+Strategy,2016.0,31238927.0
+Strategy,2017.0,5863943.0
+Utilities,2006.0,382929.0
+Utilities,2007.0,11058.0
+Utilities,2012.0,10338.0
+Utilities,2013.0,632742.0
+Utilities,2014.0,659064.0
+Utilities,2015.0,578466.0
+Utilities,2016.0,116165.0
+Utilities,2017.0,9403.0
+Video Production,2006.0,173.0
+Video Production,2007.0,11058.0
+Video Production,2012.0,4010.0
+Video Production,2013.0,205417.0
+Video Production,2014.0,484437.0
+Video Production,2015.0,1662650.0
+Video Production,2016.0,1380.0
+Web Publishing,2005.0,93844.0
+Web Publishing,2007.0,11058.0
+Web Publishing,2012.0,1930339.0
+Web Publishing,2013.0,314963.0
+Web Publishing,2014.0,33641.0
+Web Publishing,2015.0,348673.0
+Web Publishing,2016.0,1.0
+Web Publishing,2017.0,9382.0
